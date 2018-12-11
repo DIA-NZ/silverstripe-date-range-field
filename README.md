@@ -8,7 +8,7 @@ Our primary use case for this module was for use in a ModelAdmin within the CMS 
 
 Use composer:
 
-    composer require 'deptinternalaffairsnz/silverstripe-date-range-field' '1.0.0'
+    composer require 'deptinternalaffairsnz/silverstripe-date-range-field'
 
 ## Usage
 
@@ -17,7 +17,7 @@ When configuring `searchable_fields` for a `DataObject` you can make use of the 
     private static $searchable_fields = array(
         'Created' => array(
             'title' => 'created date',
-            'field' => 'DeptInternalAffairsNZ\SilverStripe\DateRangeField',
-            'filter' => 'DeptInternalAffairsNZ\SilverStripe\DateRangeFilter'
+            'field' => \DeptInternalAffairsNZ\SilverStripe\Forms\DateRangeField::class,
+            'filter' => \DeptInternalAffairsNZ\SilverStripe\Forms\DateRangeFilter::class,
         )
     );

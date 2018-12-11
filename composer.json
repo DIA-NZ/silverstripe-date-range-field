@@ -1,7 +1,7 @@
 {
     "name": "deptinternalaffairsnz/silverstripe-date-range-field",
     "description": "A date range field and filter for SilverStripe",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -9,8 +9,12 @@
             "email": "james.s.goodman@gmail.com"
         }
     ],
-    "require": {},
-    "extra": {
-        "installer-name": "date-range-field"
+    "require": {
+        "silverstripe/framework": "^4@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeptInternalAffairsNZ\\SilverStripe\\": "src/"
+        }
     }
 }
