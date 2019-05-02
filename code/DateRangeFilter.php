@@ -2,9 +2,9 @@
 
 namespace DeptInternalAffairsNZ\SilverStripe;
 
-use Convert;
-use DataQuery;
-use SearchFilter;
+use SilverStripe\Core\Convert;
+use SilverStripe\ORM\DataQuery;
+use SilverStripe\ORM\Filters\SearchFilter;
 
 class DateRangeFilter extends SearchFilter {
 

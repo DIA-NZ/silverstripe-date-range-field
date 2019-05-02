@@ -2,8 +2,8 @@
 
 namespace DeptInternalAffairsNZ\SilverStripe;
 
-use CompositeField;
-use DateField;
+use SilverStripe\Forms\CompositeField;
+use SilverStripe\Forms\DateField;
 
 class DateRangeField extends CompositeField {
 
@@ -32,8 +32,8 @@ class DateRangeField extends CompositeField {
 	}
 
 	public function setConfig($key, $value) {
-		$this->from->setConfig($key, $value);
-		$this->to->setConfig($key, $value);
+		$this->from->set_stat($key, $value);
+		$this->to->set_stat($key, $value);
 	}
 
 	public function hasData() {
