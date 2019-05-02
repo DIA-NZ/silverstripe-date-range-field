@@ -1,5 +1,5 @@
 {
-    "name": "deptinternalaffairsnz/silverstripe-date-range-field",
+    "name": "dia-nz/silverstripe-date-range-field",
     "description": "A date range field and filter for SilverStripe",
     "type": "silverstripe-module",
     "license": "BSD-3-Clause",
