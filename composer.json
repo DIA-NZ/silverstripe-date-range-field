@@ -1,16 +1,16 @@
 {
-    "name": "dia-nz/silverstripe-date-range-field",
-    "description": "A date range field and filter for SilverStripe",
-    "type": "silverstripe-module",
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "James Goodman",
-            "email": "james.s.goodman@gmail.com"
-        }
-    ],
-    "require": {},
-    "extra": {
-        "installer-name": "date-range-field"
+  "name": "dia-nz/silverstripe-date-range-field",
+  "description": "A date range field and filter for SilverStripe",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "James Goodman",
+      "email": "james.s.goodman@gmail.com"
     }
+  ],
+  "require": {},
+  "extra": {
+    "installer-name": "date-range-field"
+  }
 }
